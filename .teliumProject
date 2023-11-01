@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?teliumProject version="9.2"?><?ingedev version="8.24.0.9"?><projectDescription activeConfig="GNU_ARM_DEBUG_TETRA" enableUsingCpp="true" projectType="LIB">
+    <exportedHeaders>
+        <exportedHeader name="ExpInc"/>
+    </exportedHeaders>
+    <configs>
+        <config archiverCustomOpts="" asmCpuMode="thumb" binaryName="FrameworkLib" compiler="gnuArm4" compilerCustomOpt="" cpuMode="thumb" crc="false" enableCPPExceptions="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-O0" hardware="Telium 2" name="GNU_ARM_DEBUG_T2" sign="false" stackProtectorMode="-fstack-protector-all" zip="false">
+            <userIncs>
+                <userInc value="Inc"/>
+                <userInc value="ExpInc"/>
+            </userIncs>
+            <userDefines>
+                <userDefine value="_ING_TELIUM_SDK_LOC=&quot;${telium_sdk_loc}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_NAME=&quot;${telium_sdk_name}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_VERSION=&quot;${telium_sdk_version}&quot;"/>
+                <userDefine value="_ING_PROJECT_BUILD_TYPE=&quot;${project_build_type}&quot;"/>
+                <userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+                <userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+                <userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+            </userDefines>
+            <prebuild/>
+            <postbuild/>
+        </config>
+        <config archiverCustomOpts="" asmCpuMode="thumb" assemblerCustomOpt="" binaryName="FrameworkLib" compiler="gnuArm531v7a" compilerCustomOpt="" cpuMode="thumb" crc="false" enableCPPExceptions="true" gcov="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-O0" gprof="false" hardware="Telium Tetra" name="GNU_ARM_DEBUG_TETRA" sign="false" stackProtectorMode="-fstack-protector-strong" useGccInsteadOfAs="true" zip="false">
+            <userIncs>
+                <userInc value="Inc"/>
+                <userInc value="ExpInc"/>
+            </userIncs>
+            <userDefines>
+                <userDefine value="_ING_TELIUM_SDK_LOC=&quot;${telium_sdk_loc}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_NAME=&quot;${telium_sdk_name}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_VERSION=&quot;${telium_sdk_version}&quot;"/>
+                <userDefine value="_ING_PROJECT_BUILD_TYPE=&quot;${project_build_type}&quot;"/>
+                <userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+                <userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+                <userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+            </userDefines>
+            <dataFiles/>
+            <teliumCompatibilities/>
+            <prebuild command="" description=""/>
+            <userSystemLibraries/>
+            <userSystemLibrariesOptions/>
+            <externalSchemes/>
+            <postbuild command="" description=""/>
+            <teliumSdkPackages>
+                <teliumSdkPackage package="Telium SDK" version="11.20.3.PatchF(b37)"/>
+            </teliumSdkPackages>
+            <userAsmIncs/>
+            <userAsmDefines/>
+        </config>
+        <config archiverCustomOpts="" asmCpuMode="thumb" binaryName="FrameworkLib" compiler="gnuArm4" compilerCustomOpt="" cpuMode="thumb" enableCPPExceptions="true" gnu4StackProtectionMode="ProPolice" gnuOptim="-Os" hardware="Telium 2" name="GNU_ARM_RELEASE_T2" stackProtectorMode="-fstack-protector-all">
+            <userIncs>
+                <userInc value="Inc"/>
+                <userInc value="ExpInc"/>
+            </userIncs>
+            <userDefines>
+                <userDefine value="_ING_TELIUM_SDK_LOC=&quot;${telium_sdk_loc}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_NAME=&quot;${telium_sdk_name}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_VERSION=&quot;${telium_sdk_version}&quot;"/>
+                <userDefine value="_ING_PROJECT_BUILD_TYPE=&quot;${project_build_type}&quot;"/>
+                <userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+                <userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+                <userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+            </userDefines>
+        </config>
+        <config archiverCustomOpts="" asmCpuMode="thumb" binaryName="FrameworkLib" compiler="gnuArm47v7a" cpuMode="thumb" enableCPPExceptions="true" gcov="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-Os" gprof="false" hardware="Telium Tetra" name="GNU_ARM_RELEASE_TETRA" stackProtectorMode="-fstack-protector-all">
+            <userIncs>
+                <userInc value="Inc"/>
+                <userInc value="ExpInc"/>
+            </userIncs>
+            <userDefines>
+                <userDefine value="_ING_TELIUM_SDK_LOC=&quot;${telium_sdk_loc}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_NAME=&quot;${telium_sdk_name}&quot;"/>
+                <userDefine value="_ING_TELIUM_SDK_VERSION=&quot;${telium_sdk_version}&quot;"/>
+                <userDefine value="_ING_PROJECT_BUILD_TYPE=&quot;${project_build_type}&quot;"/>
+                <userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+                <userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+                <userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+            </userDefines>
+        </config>
+    </configs>
+    <virtualFolders>
+        <virtualFolder name="Other Files" sources="false"/>
+        <virtualFolder name="Source Files" sources="true">
+            <file generated="false" name="Src/Data/Buffer.cpp" parentProject=""/>
+            <file generated="false" name="Src/Utils/Str.cpp" parentProject=""/>
+            <file generated="false" name="Src/Utils/Exception.cpp" parentProject=""/>
+            <file generated="false" name="Src/Data/String.cpp" parentProject=""/>
+            <file generated="false" name="Src/Security/Hsm.cpp" parentProject=""/>
+            <file generated="false" name="Src/Security/KeyInfo.cpp" parentProject=""/>
+            <file generated="false" name="Src/Utils/Char.cpp" parentProject=""/>
+            <file generated="false" name="Src/Security/CryptoAlgorithm.cpp" parentProject=""/>
+            <file generated="false" name="Src/Security/CryptoKey.cpp" parentProject=""/>
+            <file generated="false" name="Src/Security/CryptoUtils.cpp" parentProject=""/>
+            <file generated="false" name="Src/Security/KeySizes.cpp" parentProject=""/>
+            <file generated="false" name="Src/Security/SymmetricAlgo.cpp" parentProject=""/>
+        </virtualFolder>
+        <archiveFilesVirtualFolder name="Archive Files"/>
+    </virtualFolders>
+</projectDescription>
